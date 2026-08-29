@@ -1,0 +1,58 @@
+FROM nvidia/cuda:12.3.2-cudnn9-devel-ubuntu22.04
+
+ENV DEBIAN_FRONTEND=noninteractive
+ENV CUDA_HOME=/usr/local/cuda
+ENV PATH=/usr/local/cuda/bin:${PATH}
+ENV LD_LIBRARY_PATH=/usr/local/cuda/lib64:/usr/local/cuda/lib64/stubs:/usr/local/cuda/compat:/usr/lib/x86_64-linux-gnu:${LD_LIBRARY_PATH}
+ENV NVIDIA_DRIVER_CAPABILITIES=compute,utility
+ENV NVIDIA_VISIBLE_DEVICES=all
+ENV TF_CPP_MIN_LOG_LEVEL=0
+
+RUN apt-get update && apt-get install -y --no-install-recommends --allow-change-held-packages \
+    ca-certificates wget curl git \
+    libsm6 libxext6 libxrender-dev libgl1-mesa-glx \
+    python3.11 python3.11-venv python3.11-dev python3-pip python3.11-distutils \
+    build-essential \
+    pkg-config \
+    libcudnn9-cuda-12 \
+    && rm -rf /var/lib/apt/lists/* \
+    && update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.11 1 \
+    && update-alternatives --install /usr/bin/python python /usr/bin/python3.11 1
+
+RUN ln -sf /usr/local/cuda-12.3 /usr/local/cuda \
+    && ln -sf /usr/local/cuda-12.3/targets/x86_64-linux/lib/stubs/libcuda.so /usr/lib/x86_64-linux-gnu/libcuda.so \
+    && ln -sf /usr/local/cuda-12.3/targets/x86_64-linux/lib/stubs/libcuda.so.1 /usr/lib/x86_64-linux-gnu/libcuda.so.1 \
+    && ln -sf /usr/lib/x86_64-linux-gnu/libnvidia-ml.so.1 /usr/lib/x86_64-linux-gnu/libnvidia-ml.so \
+    && echo "/usr/local/cuda-12.3/targets/x86_64-linux/lib/stubs" >> /etc/ld.so.conf.d/cuda-stubs.conf \
+    && echo "/usr/local/cuda-12.3/compat" >> /etc/ld.so.conf.d/cuda-compat.conf \
+    && echo "/usr/lib/x86_64-linux-gnu" >> /etc/ld.so.conf.d/nvidia.conf \
+    && ldconfig
+
+RUN find /usr -name "libcudnn*" 2>/dev/null | xargs -I {} sh -c 'echo "Found: {}" && ls -la {}' \
+    && find /usr -name "*cudnn*so*" 2>/dev/null | xargs -I {} ln -sf {} /usr/lib/x86_64-linux-gnu/ 2>/dev/null || true
+
+RUN echo "=== Checking required libraries ===" \
+    && for lib in libcuda.so libcudart.so libcublas.so libcufft.so libcurand.so libcudnn.so libcublasLt.so libcusparse.so libcusolver.so; do \
+        echo -n "$lib: "; ldconfig -p | grep -q $lib && echo "FOUND" || echo "MISSING"; \
+    done
+
+RUN pip install --no-cache-dir --upgrade pip setuptools wheel \
+    && pip install --no-cache-dir tensorflow==2.16.1
+
+RUN python3 -c "import tensorflow as tf; info = tf.sysconfig.get_build_info(); print('TF Version:', tf.__version__); print('CUDA:', info.get('cuda_version', 'Unknown')); print('cuDNN:', info.get('cudnn_version', 'Unknown'))"
+
+RUN pip install --no-cache-dir \
+    numpy==1.26.4 \
+    pandas==2.2.0 \
+    scikit-learn==1.5.0 \
+    scipy==1.13.0 \
+    matplotlib==3.8.0 \
+    pillow==10.2.0 \
+    opencv-python-headless==4.9.0.80 \
+    tqdm==4.66.2 \
+    seaborn==0.13.2
+
+WORKDIR /workspace
+
+
+CMD ["bash"]

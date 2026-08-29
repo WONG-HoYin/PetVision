@@ -1,0 +1,286 @@
+﻿Breed,Species,Size,Coat
+Frog,Amphibian,Small,Skin
+Salamander,Amphibian,Small,Skin
+Toad,Amphibian,Small,Skin
+Abyssinian,Cat,Medium,Short
+American Bobtail,Cat,Medium,Short
+American Curl,Cat,Medium,Medium
+American Shorthair,Cat,Medium,Short
+American Wirehair,Cat,Medium,Wire
+Applehead Siamese,Cat,Medium,Short
+Balinese,Cat,Medium,Long
+Bengal,Cat,Medium,Short
+Birman,Cat,Medium,Long
+Bombay,Cat,Medium,Short
+British Shorthair,Cat,Medium,Short
+Burmese,Cat,Medium,Short
+Burmilla,Cat,Medium,Short
+Calico,Cat,Medium,Short
+Canadian Hairless,Cat,Medium,Hairless
+Chartreux,Cat,Medium,Short
+Chausie,Cat,Large,Short
+Chinchilla,Cat,Small,Long
+Cornish Rex,Cat,Medium,Short
+Cymric,Cat,Medium,Long
+Devon Rex,Cat,Medium,Short
+Dilute Calico,Cat,Medium,Short
+Dilute Tortoiseshell,Cat,Medium,Short
+Domestic Long Hair,Cat,Medium,Long
+Domestic Medium Hair,Cat,Medium,Medium
+Domestic Short Hair,Cat,Medium,Short
+Egyptian Mau,Cat,Medium,Short
+Exotic Shorthair,Cat,Medium,Short
+Extra Toes Cat Hemingway Polydactyl,Cat,Medium,Short
+Havana,Cat,Medium,Short
+Himalayan,Cat,Medium,Long
+Japanese Bobtail,Cat,Medium,Short
+Javanese,Cat,Medium,Long
+Korat,Cat,Medium,Short
+LaPerm,Cat,Medium,Curly
+Maine Coon,Cat,Large,Long
+Manx,Cat,Medium,Short
+Munchkin,Cat,Small,Short
+Nebelung,Cat,Medium,Long
+Norwegian Forest Cat,Cat,Large,Long
+Ocicat,Cat,Large,Short
+Oriental Long Hair,Cat,Medium,Long
+Oriental Short Hair,Cat,Medium,Short
+Oriental Tabby,Cat,Medium,Short
+Persian,Cat,Medium,Long
+Pixiebob,Cat,Large,Short
+Ragamuffin,Cat,Large,Long
+Ragdoll,Cat,Large,Long
+Russian Blue,Cat,Medium,Short
+Scottish Fold,Cat,Medium,Short
+Selkirk Rex,Cat,Medium,Curly
+Siamese,Cat,Medium,Short
+Siberian,Cat,Large,Long
+Silver,Cat,Medium,Short
+Singapura,Cat,Small,Short
+Snowshoe,Cat,Medium,Short
+Somali,Cat,Medium,Long
+Sphynx,Cat,Medium,Hairless
+Tabby,Cat,Medium,Short
+Tiger,Cat,Medium,Short
+Tonkinese,Cat,Medium,Short
+Torbie,Cat,Medium,Short
+Tortoiseshell,Cat,Medium,Short
+Turkish Angora,Cat,Medium,Long
+Turkish Van,Cat,Large,Medium
+Tuxedo,Cat,Medium,Short
+York Chocolate,Cat,Medium,Long
+Affenpinscher,Dog,Small,Short
+Afghan Hound,Dog,Large,Long
+African Hunting Dog,Dog,Large,Short
+Airedale,Dog,Medium,Short
+American Bulldog,Dog,Large,Short
+American Pit Bull Terrier,Dog,Medium,Short
+American Staffordshire Terrier,Dog,Medium,Short
+Appenzeller,Dog,Large,Short
+Australian Terrier,Dog,Small,Wire
+Basenji,Dog,Small,Short
+Basset,Dog,Medium,Short
+Beagle,Dog,Small,Short
+Bedlington Terrier,Dog,Medium,Curly
+Bernese Mountain Dog,Dog,Giant,Long
+And Tan Coonhound,Dog,Large,Short
+Blenheim Spaniel,Dog,Small,Long
+Bloodhound,Dog,Large,Short
+Bluetick,Dog,Large,Short
+Border Collie,Dog,Medium,Long
+Border Terrier,Dog,Small,Wire
+Borzoi,Dog,Large,Long
+Boston Bull,Dog,Small,Short
+Bouvier Des Flandres,Dog,Large,Wire
+Boxer,Dog,Large,Short
+Brabancon Griffon,Dog,Small,Short
+Briard,Dog,Large,Long
+Brittany Spaniel,Dog,Medium,Short
+Bull Mastiff,Dog,Giant,Short
+Cairn,Dog,Small,Short
+Cardigan,Dog,Small,Short
+Chesapeake Bay Retriever,Dog,Large,Curly
+Chihuahua,Dog,Small,Short
+Chow,Dog,Medium,Long
+Clumber,Dog,Large,Long
+Cocker Spaniel,Dog,Medium,Long
+Collie,Dog,Large,Long
+Coated Retriever,Dog,Large,Curly
+Dandie Dinmont,Dog,Small,Long
+Dhole,Dog,Medium,Short
+Dingo,Dog,Medium,Short
+Doberman,Dog,Large,Short
+English Cocker Spaniel,Dog,Medium,Long
+English Foxhound,Dog,Large,Short
+English Setter,Dog,Large,Long
+English Springer,Dog,Medium,Long
+Entlebucher,Dog,Medium,Short
+Eskimo Dog,Dog,Large,Long
+Flat-Coated Retriever,Dog,Large,Long
+French Bulldog,Dog,Small,Short
+German Shepherd,Dog,Large,Long
+Haired Pointer,Dog,Large,Short
+Giant Schnauzer,Dog,Giant,Wire
+Golden Retriever,Dog,Large,Long
+Gordon Setter,Dog,Large,Long
+Great Dane,Dog,Giant,Short
+Great Pyrenees,Dog,Giant,Long
+Greater Swiss Mountain Dog,Dog,Giant,Short
+Groenendael,Dog,Large,Long
+Ibizan Hound,Dog,Medium,Short
+Irish Setter,Dog,Large,Long
+Irish Terrier,Dog,Medium,Wire
+Irish Water Spaniel,Dog,Medium,Curly
+Irish Wolfhound,Dog,Giant,Wire
+Italian Greyhound,Dog,Small,Short
+Japanese Spaniel,Dog,Small,Long
+Keeshond,Dog,Medium,Long
+Kelpie,Dog,Medium,Short
+Kerry Blue Terrier,Dog,Medium,Curly
+Komondor,Dog,Large,Long
+Kuvasz,Dog,Large,Long
+Labrador Retriever,Dog,Large,Short
+Lakeland Terrier,Dog,Small,Wire
+Leonberg,Dog,Giant,Long
+Lhasa,Dog,Small,Long
+Malamute,Dog,Large,Long
+Malinois,Dog,Large,Short
+Maltese Dog,Dog,Small,Long
+Mexican Hairless,Dog,Small,Hairless
+Miniature Pinscher,Dog,Small,Short
+Miniature Poodle,Dog,Small,Curly
+Miniature Schnauzer,Dog,Small,Wire
+Newfoundland,Dog,Giant,Long
+Norfolk Terrier,Dog,Small,Wire
+Norwegian Elkhound,Dog,Medium,Short
+Norwich Terrier,Dog,Small,Wire
+Old English Sheepdog,Dog,Large,Long
+Otterhound,Dog,Large,Short
+Papillon,Dog,Small,Long
+Pekinese,Dog,Small,Long
+Pembroke,Dog,Small,Short
+Pomeranian,Dog,Small,Long
+Pug,Dog,Small,Short
+Redbone,Dog,Large,Short
+Rhodesian Ridgeback,Dog,Large,Short
+Rottweiler,Dog,Large,Short
+Saint Bernard,Dog,Giant,Long
+Saluki,Dog,Large,Short
+Samoyed,Dog,Medium,Long
+Schipperke,Dog,Small,Short
+Scottish Deerhound,Dog,Giant,Wire
+Scotch Terrier,Dog,Small,Short
+Sealyham Terrier,Dog,Small,Wire
+Shetland Sheepdog,Dog,Small,Long
+Shiba Inu,Dog,Small,Short
+Tzu,Dog,Small,Long
+Siberian Husky,Dog,Medium,Long
+Silky Terrier,Dog,Small,Long
+Coated Wheaten Terrier,Dog,Medium,Long
+Staffordshire Bullterrier,Dog,Medium,Short
+Standard Poodle,Dog,Large,Curly
+Standard Schnauzer,Dog,Medium,Wire
+Sussex Spaniel,Dog,Medium,Long
+Tibetan Mastiff,Dog,Giant,Long
+Tibetan Terrier,Dog,Medium,Long
+Toy Poodle,Dog,Small,Curly
+Toy Terrier,Dog,Small,Short
+Vizsla,Dog,Medium,Short
+Walker Hound,Dog,Large,Short
+Weimaraner,Dog,Large,Short
+Welsh Springer Spaniel,Dog,Medium,Long
+West Highland White Terrier,Dog,Small,Wire
+Whippet,Dog,Medium,Short
+Haired Fox Terrier,Dog,Medium,Wire
+Yorkshire Terrier,Dog,Small,Long
+Chameleon,Reptile,Small,Scales
+Gecko,Reptile,Small,Scales
+Iguana,Reptile,Medium,Scales
+Lizard,Reptile,Small,Scales
+Snake,Reptile,Medium,Scales
+TurtleTortoise,Reptile,Small,Shell
+Antelope,Other,Large,Short
+Badger,Other,Medium,Short
+Bat,Other,Small,Short
+Bear,Other,Large,Long
+Bee,Other,Small,Hairless
+Beetle,Other,Small,Hairless
+Bison,Other,Giant,Short
+Boar,Other,Large,Short
+Butterfly,Other,Small,Hairless
+Caterpillar,Other,Small,Hairless
+Chimpanzee,Other,Large,Short
+Cockroach,Other,Small,Hairless
+Cow,Other,Large,Short
+Coyote,Other,Medium,Short
+Crab,Other,Large,Shell
+Crow,Other,Medium,Feathers
+Deer,Other,Large,Short
+Dolphin,Other,Large,Skin
+Donkey,Other,Large,Short
+Dragonfly,Other,Small,Hairless
+Duck,Other,Medium,Feathers
+Eagle,Other,Large,Feathers
+Elephant,Other,Giant,Short
+Flamingo,Other,Large,Feathers
+Fly,Other,Small,Hairless
+Fox,Other,Medium,Short
+Goat,Other,Medium,Short
+Goldfish,Fish,Small,Scales
+Goose,Other,Medium,Feathers
+Gorilla,Other,Large,Short
+Grasshopper,Other,Small,Hairless
+Hamster,Small_Animal,Small,Short
+Hare,Other,Small,Short
+Hedgehog,Other,Small,Short
+Hippopotamus,Other,Giant,Short
+Hornbill,Other,Medium,Feathers
+Horse,Other,Large,Short
+Hummingbird,Other,Small,Feathers
+Hyena,Other,Medium,Short
+Jellyfish,Other,Large,Skin
+Kangaroo,Other,Large,Short
+Koala,Other,Medium,Short
+Ladybugs,Other,Small,Hairless
+Leopard,Other,Large,Short
+Lion,Other,Large,Short
+Lobster,Other,Large,Shell
+Mosquito,Other,Small,Hairless
+Moth,Other,Small,Hairless
+Mouse,Other,Small,Short
+Octopus,Other,Large,Skin
+Okapi,Other,Medium,Short
+Orangutan,Other,Medium,Short
+Otter,Other,Medium,Short
+Owl,Other,Medium,Feathers
+Ox,Other,Large,Short
+Oyster,Other,Small,Shell
+Panda,Other,Large,Long
+Parrot,Bird,Small,Feathers
+Pelecaniformes,Other,Medium,Feathers
+Penguin,Other,Medium,Feathers
+Pig,Other,Medium,Short
+Pigeon,Bird,Small,Feathers
+Porcupine,Other,Medium,Short
+Possum,Other,Small,Short
+Raccoon,Other,Medium,Short
+Rat,Other,Small,Short
+Reindeer,Other,Large,Short
+Rhinoceros,Other,Giant,Short
+Sandpiper,Other,Medium,Feathers
+Seahorse,Other,Small,Scales
+Seal,Other,Large,Skin
+Shark,Other,Giant,Scales
+Sheep,Other,Medium,Short
+Sparrow,Other,Medium,Feathers
+Squid,Other,Large,Skin
+Squirrel,Other,Small,Short
+Starfish,Other,Small,Skin
+Swan,Other,Large,Feathers
+Turkey,Other,Medium,Feathers
+Turtle,Reptile,Small,Shell
+Whale,Other,Giant,Skin
+Wolf,Other,Medium,Short
+Wombat,Other,Small,Short
+Woodpecker,Other,Medium,Feathers
+Zebra,Other,Large,Short

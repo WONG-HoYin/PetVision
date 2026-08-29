@@ -1,0 +1,11 @@
+# 忽略 Python 編譯與暫存檔
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 忽略環境變數與虛擬環境
+.env
+venv/
+.venv/
+.DS_Store
